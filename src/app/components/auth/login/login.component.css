@@ -1,0 +1,71 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    max-width: 400px;
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
+}
+
+.card-body {
+    padding: 40px;
+    border-radius: 15px;
+}
+
+/* Estilos del formulario */
+.form-control {
+    border: 1px solid #cccccc5c;
+    padding: 15px 20px;
+    transition: border-color 0.3s ease;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-control:focus {
+    border-color: #03c9d7;
+}
+
+.btn-login {
+    padding: 15px 0;
+    font-size: 1.2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.btn-login:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos de texto */
+h2 {
+    font-weight: 600;
+}
+
+a {
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #03c9d7;
+}
